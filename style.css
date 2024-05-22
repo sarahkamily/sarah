@@ -1,0 +1,62 @@
+*
+{
+margin: 0;
+padding: 0;
+}
+.cabeçalho
+{
+background-color: #7f8194;
+color: #1b2043
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 24px 0;
+}
+.logo-colégio
+{
+width: 20%;
+justify-content: center;
+}
+.NOMEDAESCOLA
+{
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 24px 0;
+}
+.lista
+{
+color: black;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.body
+{
+background-image: linear-gradient(#9698a5,#FFFFFF);
+color: black;
+justify-content: center;
+padding: 24px 0;
+}
+
+.rodapeimagem
+{width: 1435px;}
+
+.iconefacebook
+{width: 60px ;
+padding: 4px 8px;}
+
+.iconeinstagram
+{width: 60px ;
+padding: 4px 8px;}
+
+.nomefacebook
+{padding: 24px 0}
+
+.nomeinstagram
+{padding: 24px 0}
+
+.links
+{width: 35%
+text-align: center;
+padding: 16px 0}
