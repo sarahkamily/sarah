@@ -1,41 +1,99 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Document</title>
+<title>Colégio Estadual Cidália Rebello Gomes</title>
+<link rel="stylesheet" href="reset.css">
 <link rel="stylesheet" href="style.css">
-<title> C.E. Cidália Rebello Gomes</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css%22/&gt";>
 </head>
-<header class="cabeçalho">
-<img cla8ss="logo " src="logo-removebg-preview.png" alt="logo colégio">
-<h1 class="NOMEDAESCOLA"> Colégio Estadual Cidália Rebello Gomes </h1>
-<ul class="lista">
-<li class="inicio">Início</li>
-<li>Nossa história</li>
-<li>Sobre nosso colégio</li>
-<li>Eventos</li>
-<li>Fotos e arquivos</li>
-<li>Contato</li>
-</ul>
-</header>
 <body>
-<section class="body">
-<h2>Sobre o nosso Colégio</h2>
-Então, quem foi Cidália Rebelo Gomes? Teresa Jussara Luporini escreveu sobre essa educadora em 1992. Diz a autora que em 26 de fevereiro de 1926 a professora Cidália foi nomeada para reger a, então, Escola Mixta de Valadares, que em 1953 passou a chamar-se Grupo Escolar Valadares.
+<header class="cabeçalho">
+<div class="container">
+<input type="checkbox" id="menu" class="container__botao">
+<label for="menu">
+<span class="cabeçalho__menu-hamburguer container__imagem"></span>
+</label>
+<ul class="lista-menu">
+<a href="#" class="lista-menu_link">Início</a>
+</li>
+<li class="lista-menu_item">
+<a href="#" class="lista-menu_link">Notícias</a>
+</li>
+<li class="lista-menu_item">
+<a href="#" class="lista-menu_link">Eventos</a>
+</li>
+<li class="lista-menu_item">
+<a href="#" class="lista-menu_link">Imagens e Arquivos</a>
+</li>
+<li class="lista-menu_item">
+<a href="#" class="lista-menu_link">Contato</a>
+</li>
+</ul>
+<span class="menu"></span>
+<img src="menu.png" alt="menu" class="menu">
+</div>
+</header>
 
-<section class: "baixo">
-<div class="links">
+<section class="banner">
+<h2> Colégio Estadual Cidália Rebello Gomes</h2>
+<img class="logo" src="logo.png" alt="logo">
+<!-- Slider main container -->
+<div class="swiper">
+<!-- If we need pagination -->
+<div class="swiper-pagination"></div>
+<!-- Additional required wrapper -->
+<div class="swiper-wrapper">
+<!-- Slides -->
+<div class="swiper-slide"><img src="carrossel 1.jpg" alt="Notícias" class="carrossel1"></div>
+<div class="swiper-slide"><img src="carrossel 2.jpg" alt="Eventos" class="carrossel2"></div>
+<div class="swiper-slide"><img src="carrossel 3.png" alt="Arquivos" class="carrossel3"></div>
+...
+</div>
+<!-- If we need pagination -->
+<div class="swiper-pagination"></div>
 
-<a href="https://facebook.com/" class="container_botao"></a>
-<img class="iconefacebook" src="facebook.png" alt="icone facebook">
-<h3 class="nomeinstagram">Instagram</h3>
-<img class="iconeinstagram" src="instagram.png" alt="icone instagram">
+<!-- If we need navigation buttons -->
+<div class="swiper-button-prev"></div>
+<div class="swiper-button-next"></div>
+
 </div>
 
-<img src="rodape.jpeg" class="rodapeimagem"
+<div class="card">
+<!-- 1º linha -->
+<div class="carddescricao">
+<!-- 1º coluna -->
+<div class="descricao">
+<h3 class="descricaotitulo">Resultado - Prova Paraná</h3>
+<h2 class="descricaotitulo2"> Confira o seu resultado na Prova Paraná </h2>
+<p class="descricaotexto">A aplicação da Prova Paraná permite a coleta de informações sobre as habilidades e as dificuldades de cada aluno </p>
+</div>
+<!-- 2º coluna -->
+<img src="provaparana.jpg" class="provaparana">
+</div>
+<!-- 2º linha -->
+<div class="cardbotoes">
+<ul class="botoes">
+<li class="botoesitens"><img src="iconelivro.png" alt="botao"></li>
+<li class="botoesitens"><img src="iconeescola.png" alt="botao"></li>
+</ul>
+<!-- 2º coluna -->
+<a href="https://www.provaparana.pr.gov.br/&quot; class="linkprovaparana">Saiba mais</a>
+
+
+</div>
+</div>
+
+
 
 </section>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script&gt;
+<script>
+const swiper = new Swiper('.swiper', {
+spaceBetween: 20,
+slidesPerView: 0,
+});
+</script>
 </body>
-</section>
 </html>
